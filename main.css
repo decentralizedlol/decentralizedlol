@@ -1,0 +1,49 @@
+header {
+    background-color: #bf9aca;
+    padding: 8px;
+}
+
+h1 {
+    margin: 0px;
+    text-align: center;
+    font-family: fantasy;
+}
+
+body {
+    background-color: #c7e8f3;
+    margin: 0px;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+}
+
+#canvasDiv {
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+}
+
+#buttonsDiv {
+    display: flex;
+    justify-content: center;
+}
+
+#saveButton, #imageLoader {
+    background: #bf9aca;
+    border: none;
+    border-radius: 4px;
+    margin: 4px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: fantasy;
+}
+
+#saveButton:hover {
+    background: #927c99;
+}
+
+footer {
+    background-color: #bf9aca;
+}
