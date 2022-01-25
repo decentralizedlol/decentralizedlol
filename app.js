@@ -8,6 +8,8 @@ coverImg = new Image();
 demoImg = new Image();
 demoImg.onload = function() {
     coverImg.onload = function() {
+        console.log(demoImg);
+        console.log(coverImg);
         createImageBitmap(demoImg, {resizeWidth: 480, resizeHeight: 480, resizeQuality: 'high'}).then(imageBitmap => drawFungiblePFP(imageBitmap));
     };
 };

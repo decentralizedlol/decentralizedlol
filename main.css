@@ -25,8 +25,17 @@ body {
 
 #main {
     display: flex;
-    flex-direction: column;
     flex: 1;
+}
+
+#left {
+    width: fit-content;
+    font-family: 'Indie Flower';
+    padding: 16px;
+}
+
+#center {
+    width: fit-content;
 }
 
 #canvasDiv {

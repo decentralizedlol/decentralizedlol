@@ -22,17 +22,31 @@
             <h1>NFT PFP Generator:</h1>
             <a href="https://twitter.com/decentralizedjk" class="twitter-follow-button" data-show-count="false">Follow @TwitterDev</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </header>
-
         <div id='main'>
-            <div id='canvasDiv'>
-                <canvas id="fungibleCanvas" width="480" height="480"></canvas>
+            <div id='left'>
+                <div id='howTo'>
+                    <h2>How to:</h2>
+                    <p>Step 1: Find any NFT you want, the rarer the better</p>
+                    <p>Step 2: Right click + save as...</p>
+                    <p>Step 3: Click 'Choose File' & Upload your NFT</p>
+                    <p>Step 4: Click save!</p>
+                    <p>Step 5: Upload to Twitter</p>
+                    <p>Step 6: Enjoy your free NFT PFP!</p>
+                </div>
             </div>
-            <div id='buttonsDiv'>
-                <input type="file" id="imageLoader" name="imageLoader"/>
-                <button id='saveButton' onclick='saveCanvas()'>Save!</button>
+            <div id='center'>
+                <div id='canvasDiv'>
+                    <canvas id="fungibleCanvas" width="480" height="480"></canvas>
+                </div>
+                <div id='buttonsDiv'>
+                    <input type="file" id="imageLoader" name="imageLoader"/>
+                    <button id='saveButton' onclick='saveCanvas()'>Save!</button>
+                </div>
+            </div>
+            <div id='right'>
+                
             </div>
         </div>
-
         <footer>
             <p>Helping plebs fight the tyranny of decentralization.</p>
         </footer>
