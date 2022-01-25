@@ -1,22 +1,32 @@
+
+
 header {
     background-color: #bf9aca;
     padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 h1 {
     margin: 0px;
     text-align: center;
-    font-family: fantasy;
+    font-size: 42px;
+    font-family: 'Indie Flower', cursive;
 }
 
 body {
     background-color: #c7e8f3;
     margin: 0px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 #main {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 #canvasDiv {
@@ -36,8 +46,8 @@ body {
     border-radius: 4px;
     margin: 4px;
     padding: 10px;
-    font-size: 16px;
-    font-family: fantasy;
+    font-size: 18px;
+    font-family: 'Indie Flower', cursive;
 }
 
 #saveButton:hover {
@@ -46,4 +56,9 @@ body {
 
 footer {
     background-color: #bf9aca;
+}
+
+footer > p {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
 }
